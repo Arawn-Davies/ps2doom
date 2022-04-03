@@ -1,0 +1,4 @@
+Edit c_cpp_properties.json to reflect SDK lib files
+Edit settings.json to add debugging and launch of the compiled ELF file
+Edit tasks.json to call correct building makefile for PS2Doom, using the PS2 toolchain and SDK
+Investigate launch.json and implement correct behavior.

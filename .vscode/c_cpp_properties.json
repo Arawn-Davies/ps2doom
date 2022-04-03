@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "EE (Open Source SDK)",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${PS2SDK}/common/include/**",
+                "${PS2SDK}/ee/include/**",
+                "${PS2SDK}/ports/include/**",
+                "${PS2SDK}/ports/include/SDL/**",
+                "${PS2DEV}/ee/ee/include/**",
+                "${PS2DEV}/ee/ee/sys-include/**",
+                "${PS2DEV}/ee/lib/gcc-lib/ee/3.2.3/include/**",
+
+                "${GSKIT}/include/**"
+            ],
+            "defines": [
+                "_EE"
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "IOP (Open Source SDK)",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${PS2SDK}/common/include/**",
+                "${PS2SDK}/iop/include/**",
+                "${PS2DEV}/iop/include/**",
+                "${PS2DEV}/iop/lib/gcc-lib/iop/3.2.3/include/**",
+                "${PS2DEV}/iop/iop/sys-include/**"
+            ],
+            "defines": [
+                "_IOP"
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/arawn/ps2doom",
+            "binaryPath": "/home/arawn/ps2doom/doom.elf",
+            "binaryArgs": []
+        }
+    ]
+}
